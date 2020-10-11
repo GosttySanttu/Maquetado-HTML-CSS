@@ -1,0 +1,725 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Candara;
+}
+
+
+body{
+
+
+}
+
+
+
+.container {
+
+width: 960px;
+margin: 0 auto;
+
+}
+
+
+
+header{
+
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background-color: #353539;
+	-webkit-transition: background-color .5s;
+z-index: 2;
+}
+
+nav{
+	display: table;
+	margin: auto;
+	margin-top: 15px;
+	height: 40px;
+	-webkit-transition: margin-left .5s;
+}
+
+header ul{
+	display: block;
+	float: left;
+	list-style: none;
+
+}
+
+header ul li{
+float: left;
+margin: 10px;
+padding: 2px;
+transition-property: all;
+ transition-duration: 0.3s;
+ transition-timing-function: ease all;
+}
+
+header ul li:hover{
+
+border-bottom: 2px solid white;
+
+}
+
+
+
+header ul a{
+	color: #F3F3F3;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-top: 70px ;
+float: left;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+.turismo {
+
+width: 960px;
+height: auto;
+background-color: white;
+
+}
+
+
+
+
+.visita  {
+
+width: 320px;
+height: 400px;
+float: left;
+background-image: url("../imagenes/turismo1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.visita:nth-child(2) {
+
+background-image: url("../imagenes/turismo2.jpg");
+
+}
+
+
+.visita:nth-child(3) {
+
+background-image: url("../imagenes/turismo7.jpg");
+
+}
+
+
+.visita:nth-child(4) {
+
+background-image: url("../imagenes/turismo4.jpg");
+
+}
+
+.visita:nth-child(5) {
+
+background-image: url("../imagenes/turismo8.jpg");
+
+}
+
+
+.visita:nth-child(6) {
+
+background-image: url("../imagenes/turismo6.jpg");
+
+}
+
+
+
+.visita h2, p {
+
+width: 250px;
+color: white;
+text-align:justify;
+margin: 30px;
+
+}
+
+
+
+.visita button{
+
+width: 80px;
+height: 35px;
+color: white;
+background-color: #ffffff00;
+font-weight: 600;
+font-size: 15px;
+border: 2px solid white;
+margin-top: 15px;
+margin-left:30px;
+
+border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+
+ transition-duration: 0.4s;
+ transition-timing-function: ease ;
+}
+
+.visita button:hover{
+
+color: white;
+background-color:#288870;
+font-size: 15px;
+border: none;
+
+border: 2px solid white;
+}
+
+
+
+.historiaBoca {
+
+width: 480px;
+height: 700px;
+float: left;
+
+
+}
+
+
+
+
+
+.historiaBoca p{
+
+width: 400px;
+text-align: justify;
+margin: 50px;
+font-weight: 600;
+color: #353539;
+}
+
+
+.historiaBoca h2{
+
+margin: 50px 50px;
+color: #353539;;
+
+}
+
+.historiaBoca img {
+
+width: 60%;
+height: auto;
+margin: 220px 100px;
+}
+
+ 
+
+
+/*LA CIUDAD*/
+
+
+.ciudad {
+
+width: 960px;
+height: 500px;
+background-color: white;
+
+}
+
+
+
+.opcion1 {
+
+width: 317px;
+height: 500px;
+display: inline-block;
+}
+
+.opcion1 p, h2 {
+
+color: black;
+margin-left:60px;
+margin-top: 10px;
+}
+
+.opcion1 img{
+
+width: 220px;
+height:150px;
+margin-left:60px;
+margin-top: 50px;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
+border: 0px solid #000000;
+}
+
+.opcion1 button{
+
+width: 80px;
+height: 35px;
+color: white;
+background-color: #288870;
+font-weight: 600;
+font-size: 15px;
+border: none;
+margin-top: 15px;
+margin-left:60px;
+
+border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+border: 0px solid #ffffff;
+-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+transition-property: all;
+ transition-duration: 0.4s;
+ transition-timing-function: ease ;
+}
+
+.opcion1 button:hover{
+
+color: #288870 ;
+background-color:white ;
+font-weight: 600;
+font-size: 15px;
+border: none;
+margin-top: 15px;
+margin-left:60px;
+border: 2px solid #288870;
+
+}
+
+
+
+
+
+
+.ciudad2 {
+
+width: 960px;
+height: 500px;
+background-color: white;
+
+}
+
+
+
+.opcion2 {
+
+width: 317px;
+height: 500px;
+display: inline-block;
+}
+
+.opcion2 p, h2 {
+
+color: black;
+margin-left:60px;
+margin-top: 10px;
+}
+
+.opcion2 img{
+
+width: 220px;
+height:150px;
+margin-left:60px;
+margin-top: 50px;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
+border: 0px solid #000000;
+}
+
+.opcion2 button{
+
+width: 80px;
+height: 35px;
+color: white;
+background-color: #288870;
+font-weight: 600;
+font-size: 15px;
+border: none;
+margin-top: 15px;
+margin-left:60px;
+
+border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+border: 0px solid #ffffff;
+-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+transition-property: all;
+ transition-duration: 0.4s;
+ transition-timing-function: ease ;
+}
+
+
+.opcion2 button:hover{
+
+color: #288870 ;
+background-color:white ;
+font-weight: 600;
+font-size: 15px;
+border: none;
+margin-top: 15px;
+margin-left:60px;
+border: 2px solid #288870;
+
+}
+
+
+
+
+
+
+
+
+footer {
+
+width: 960px;
+height: 500px;
+background-color: #353539;
+float: left;
+}
+
+
+
+
+
+footer turismo{
+
+width: 960px;
+height: 500px;
+background-color: white;
+float: left;
+}
+
+
+footer turismo h1{
+
+padding-top:100px;
+}
+
+footer iframe{
+
+padding-top:100px;
+}
+
+
+footer ul {
+
+
+margin: 50px;
+float: left;
+}
+
+footer h3{
+
+color: whitesmoke;
+
+}
+
+footer li {
+
+
+color: silver;
+
+display: block;
+font-size: 20px;
+
+}
+
+footer a{
+
+color: silver;
+text-decoration: none;
+transition-property: all;
+ transition-duration: 0.3s;
+ transition-timing-function: ease all;
+}
+
+
+footer a:hover{
+
+color: white;
+}
+
+
+
+footer span{
+
+
+font-size: 30px;
+color: silver;	
+padding: 5px;
+transition-property: all;
+ transition-duration: 0.3s;
+ transition-timing-function: ease all;
+}
+
+footer span:hover{
+
+color: white;
+
+}
+
+footer form {
+width: 400px;
+height: 300px;
+
+float: right;
+margin: 50px;
+}
+
+footer input {
+width: 250px;
+height: 30px;
+background-color: silver;
+border: none;
+margin: 10px;
+outline:none;
+}
+
+
+footer textarea {
+
+width:350px;
+height: 150px;
+background-color: silver;
+margin: 10px;
+outline:none;
+}
+
+footer button{
+
+width: 80px;
+height: 35px;
+color: white;
+background-color: gray;
+font-weight: 600;
+font-size: 15px;
+border: none;
+margin: 10px 10px;
+-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+border: 0px solid #ffffff;
+transition-property: all;
+ transition-duration: 0.4s;
+ transition-timing-function: ease all;
+outline:none;
+}
+
+
+footer button:hover{
+
+color: gray;
+background-color:white;
+font-weight: 600;
+font-size: 15px;
+border: none;
+border: 2px solid gray;
+
+}
+
+
+
+
+
+.galeria {
+
+width: 960px;
+height: 150px;
+float: left;
+
+}
+
+.hoverbox {
+	cursor: default;
+	list-style: none;
+
+}
+
+.hoverbox a {
+	cursor: default;
+
+}
+
+.hoverbox a .preview {
+	display: none;
+
+}
+
+.hoverbox a:hover .preview {
+	display: block;
+	position: absolute;
+	top: -33px;
+	left: -45px;
+	z-index: 1;
+
+}
+
+.hoverbox img {
+	
+	border-color: #288870;
+	border-style: solid;
+	border-width: 1px;
+	color: inherit;
+	padding: 2px;
+	vertical-align: top;
+	width: 100px;
+	height: 75px;
+
+}
+
+.hoverbox li {
+	border:2px solid #288870;
+
+	color: inherit;
+	display: inline;
+	float: left;
+	margin: 8px;
+	padding: 5px;
+	position: relative;
+
+}
+
+.hoverbox .preview{
+	border-color: #000;
+	width: 200px;
+	height: 150px;
+
+}
+
+
+.hoverbox a {
+	position: relative;
+
+}
+
+.hoverbox a:hover {
+	display: block;
+	font-size: 100%;
+	z-index: 1;
+
+}
+
+.hoverbox a:hover .preview {
+	top: -38px;
+	left: -50px;
+}
+
+.hoverbox li {
+	position: static;
+}

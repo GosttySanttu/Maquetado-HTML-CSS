@@ -1,0 +1,83 @@
+div{
+	margin-bottom: 3px;
+}
+span{
+	display: inline-block;
+	width: 80px;
+}
+
+input{ border: 2px solid silver;
+		outline:none;
+}
+
+input:focus{ 
+		background: pink;
+		border: 2px solid red;	
+		
+}
+
+/*para que no se vean por defecto*/
+
+input[type=radio]{
+	display: none;
+}
+
+/*llamo a la imagen*/
+
+input[type=radio] + label{ 
+	display: inline-block;
+	padding-left: 20px;
+	background: url(01-radio/check_no.png) no-repeat left center;
+}
+
+input[type=radio]:checked + label{ 
+	background-image: url(01-radio/check_si.png);
+}
+
+input[type=submit]{ 
+	margin-left: 100px 
+	}
+
+/*gif con la carita*/
+
+#agree + label{
+	display: inline-block;
+	padding: 10px 0 10px 32px;
+	background: url(02-agree/no.gif) no-repeat left center;
+}
+#agree{ display: none; }
+
+#agree + label span{
+	display: inline;
+}
+#agree:checked + label{
+	background-image: url(02-agree/si.gif)
+}
+#agree:checked + label span{
+	display: none;
+}
+
+/*signo de ! y * en el capo requerido*/
+
+input:required{
+	background: url(04-email/required.png) no-repeat right center; 
+}
+/*cuando valida*/
+
+input:required:valid{
+	background-image: url(04-email/valid.png); 
+}
+/*cuando no es correcto*/
+input:focus:invalid{
+	background-image: url(04-email/invalid.png); 
+}
+
+
+
+
+
+
+
+
+
+

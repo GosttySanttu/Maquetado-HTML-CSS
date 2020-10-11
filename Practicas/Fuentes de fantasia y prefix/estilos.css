@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+
+@font-face{
+	font-family: 'The Foregen Regular';
+	src: url("the-foregen-regular.otf");
+	
+}
+
+
+
+h1{
+font: bold 60px MK;
+
+/*font-family: MK;
+font-family: 60px;
+font-weight: bold;*/
+
+}
+
+
+body{
+	background: url(TheDeadPool.jpg) center top no-repeat fixed;
+}
+
+#principal{
+	background: white;
+	padding: 10px 30px;
+	width: 960px;
+	margin: auto;
+	font-family: verdana;
+}
+
+#personajes{
+	padding: 0px;
+	list-style: none;
+	overflow: auto;
+}
+
+#personajes li{
+	float: left;
+	border: 1px solid grey;
+	padding: 6px;
+	margin: 2px;
+	line-height: 0;
+}
+
+#personajes li:hover{
+	background: silver;
+}
+
+dt{
+	font-weight: bold;
+}
+dd{
+	margin: 0 0 10px 0;
+}
+
+#fatality{
+	float: right;
+	margin-left: 30px;
+}
+
+#peliculas{
+	padding: 0;
+	list-style: none;
+}
+#peliculas li{
+	width: 470px;
+	display: inline-block;
+	vertical-align: top;
+}
+#peliculas li:first-child{
+	margin-right: 20px;
+}
+
+h2{
+	font: bold 30px 'Trebuchet Ms';
+	background: url(logos/mk.gif) left center no-repeat;
+	padding: 10px 60px;
+	color: darkred;
+	
+}
+h2:hover{
+	color: red;
+	background-image: url(logos/mk2.gif)
+}
+
+/*puedo decirle que la imagen que no se muestre, en vez que quede el icono de imagen no encontrada. */
+
+/*img:-moz-broken{
+	display: none;
+}*/
+
+#v{
+	column-count: 3;
+	column-rule: 1px solid red;
+	column-gap: 40px;
+	hyphens: auto;
+	text-align: justify;
+}
+
+h3{
+	/*word-break: break-all;*/
+	white-space: nowrap;
+	overflow: hidden;
+	font-family: 'Ubuntu', sans-serif;
+	text-overflow: ' -- sigue -> ';
+}
+
+/*h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	
+}*/
+
+/*h2{
+	font-family: 'The Foregen Regular' , sans-serif;
+	
+}*/
+

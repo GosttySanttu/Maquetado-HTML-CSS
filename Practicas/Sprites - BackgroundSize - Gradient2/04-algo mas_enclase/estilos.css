@@ -1,0 +1,115 @@
+body{
+	font-family: Verdana;
+	background: 
+		url(https://yearinreviewes.files.wordpress.com/2015/11/spongebob.png) no-repeat bottom right,
+		url(fotos/bikini-bottom.jpg) fixed;
+	background-size: 400px 300px, 100% 100%;
+}
+h1{
+	background: url(iconos/logo.png) no-repeat;
+	width: 500px;
+	height: 146px;
+	font-size: 0
+}
+
+#ppal{
+	width: 500px;
+	padding: 20px 50px;
+	margin: auto;
+	/*background: rgba(255,255,255,0.9);*/
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100;Pink+Gloss */
+	/*background: #cb60b3; /* Old browsers */
+	/*background: -moz-linear-gradient(-45deg, #cb60b3 0%, #c146a1 50%, #a80077 51%, #db36a4 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(-45deg, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(135deg, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	
+	
+	
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,1aa51f+15,1aa51f+15,207cca+34,a81f6d+49,207cca+68,207cca+80,ead87e+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #1aa51f 15%, #1aa51f 15%, #207cca 34%, #a81f6d 49%, #207cca 68%, #207cca 80%, #ead87e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#1aa51f 15%,#1aa51f 15%,#207cca 34%,#a81f6d 49%,#207cca 68%,#207cca 80%,#ead87e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#1aa51f 15%,#1aa51f 15%,#207cca 34%,#a81f6d 49%,#207cca 68%,#207cca 80%,#ead87e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ead87e',GradientType=0 ); /* IE6-9 */
+
+	
+	
+	
+}
+
+#menu{
+	margin: 20px 0;
+	padding: 10px;
+	list-style: none;
+	border: 2px solid silver;
+	overflow: auto;
+	
+}
+
+#menu li{
+	float: left
+}
+
+
+#menu li a{ /* DRY --> Dont repeat yourself */
+	text-decoration: none;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
+	font-size: 0px;
+	margin-right: 10px;
+	background-position: left bottom;
+	width: 84px;
+	height: 84px;
+	background-image: url(iconos2/sprite.png);
+}
+
+#menu li:nth-child(2) a{
+	background-position: -420px bottom;
+}/*    background-position: -420px -168px;*/
+#menu li:nth-child(3) a{
+	background-position: right bottom;
+}
+
+#menu li:nth-child(1) a:hover{
+	background-position: left center;
+}
+
+#menu li:nth-child(2) a:hover{
+	background-position: -420px center;
+}
+#menu li:nth-child(3) a:hover{
+	background-position: right center;
+}
+
+
+
+
+/*#menu li:nth-child(3) a{
+	background-image: url(iconos/youtube.png);
+}*/
+
+
+#personajes{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#personajes li{
+	overflow: auto;
+}
+#personajes img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#personajes p{
+	color: white;
+	font-size: 12px;
+}
+
+
+

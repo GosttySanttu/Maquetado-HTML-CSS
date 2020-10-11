@@ -1,0 +1,6 @@
+/**** CONSIGNA ****/
+
+Armar la estructura básica. (sin olvidar la etiqueta META y el atributo LANG).
+Maquetar el sitio como vimos en clase, con las distintas jerarquías de texto (H1, H2, H3, H4,… y párrafos)
+Pueden para practicar usar todas las etiquetas que vimos hasta ahora << b, i , strong, em, cite, q, ...>> 
+(recuerden que strong y em lo uso en oraciones importantes…)

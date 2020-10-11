@@ -1,0 +1,63 @@
+body{
+	font-family: Verdana;
+	text-align: center;
+	color: peru;
+	
+}
+h1{
+	color:white;
+	/*color:red;*/
+	font-size: 1px;
+}
+
+h2{
+	text-decoration: underline;
+}
+
+h2:hover{
+	color: cyan;
+	cursor: wait;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: darkred;
+	cursor: url('cursor.gif'), wait;
+}
+
+a:active{
+	color: pink;
+}
+
+ul{
+	list-style: none;
+}
+
+p{
+	/*font-size: 20px;
+	font-family: "Comic Sans MS";
+	font-weight:bolder;
+	font-variant: small-caps;
+	font-style: oblique;
+	/*
+	italic -> /
+	oblique -> \
+	*/
+
+	font: bold italic small-caps 15px/150% "Comic Sans MS";
+	/*	line-height: 150%; /* esta medida en porcentaje se calcula en base al font-size 150% == 1.5 veces el tamaño de la fuente */
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	word-spacing: 15px;
+	text-indent: 60px;
+}
+
+#primero{
+	font-size: 50px;
+	text-decoration:none;
+}

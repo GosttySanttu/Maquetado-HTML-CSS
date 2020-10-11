@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>La Boca - Turismo</title>
+
+	<link rel="stylesheet" href="style/index_style.css">
+
+<!-- FavIcon -->
+<link rel="apple-touch-icon" sizes="180x180" href="imagenes/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon-16x16.png">
+<link rel="manifest" href="imagenes/site.webmanifest">
+<link rel="mask-icon" href="imagenes/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href='index.html'>Inicio</a></li>
+        <li><a href='historia.html'>Historia</a></li>
+        <li><a href='laCiudad.html'>La Ciudad</a></li>
+        <li><a href='turismo.html'>Turismo</a></li>
+      
+      </ul>
+    </nav>
+  </header>
+
+
+	<div class="container">		
+
+
+
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+  	  <img src="imagenes/slider1.jpg" style="width:100%">
+  </div>
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="imagenes/slider2.jpg" style="width:100%">
+ </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="imagenes/slider3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="imagenes/slider4.jpg" style="width:100%">
+  </div>
+
+
+
+
+
+
+<div class="galeria">
+
+<ul class="hoverbox">
+
+<li>
+<a href="#"><img src="imagenes/antiguo2.jpg" alt="description" /><img src="imagenes/antiguo2.jpg" alt="description" class="preview" /></a>
+</li>
+
+
+<li>
+<a href="#"><img src="imagenes/museo2.jpg" alt="description" /><img src="imagenes/museo2.jpg" alt="description" class="preview" /></a>
+</li>
+
+<li>
+<a href="#"><img src="imagenes/bombonera.jpg" alt="description" /><img src="imagenes/bombonera.jpg" alt="description" class="preview" /></a>
+</li>
+
+<li>
+<a href="#"><img src="imagenes/torre.jpg" alt="description" /><img src="imagenes/torre.jpg" alt="description" class="preview" /></a>
+</li>
+
+<li>
+<a href="#"><img src="imagenes/museo.jpg" alt="description" /><img src="imagenes/museo.jpg" alt="description" class="preview" /></a>
+</li>
+
+<li>
+<a href="#"><img src="imagenes/puente.jpg" alt="description" /><img src="imagenes/puente.jpg" alt="description" class="preview" /></a>
+</li>
+
+<li>
+<a href="#"><img src="imagenes/fundacion.jpg" alt="description" /><img src="imagenes/fundacion.jpg" alt="description" class="preview" /></a>
+</li>
+
+
+
+</div>
+
+
+
+
+<footer class="turismo">
+    
+<h1>Ubicacion:</h1>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.710184615034!2d-58.37045016633256!3d-34.63758808720977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b0bf5ff0a5%3A0x3858a68c0d7599a0!2sLa+Boca%2C+CABA!5e0!3m2!1ses-419!2sar!4v1561648575480!5m2!1ses-419!2sar" width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
+<form action="saludo.html" method="get">
+    
+     <h2>Reservas:</h2>
+
+ 
+    <div>
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="  Nombre" />
+    </div>
+    <div>
+        <label for="mail"></label>
+        <input type="email" id="mail" placeholder="  example@email.com" />
+    </div>
+
+    <div>
+        <label for="telefonor"></label>
+        <input type="numer" id="telefono" placeholder="  Cel" />
+    </div>
+
+    <div>
+        <label for="msg"></label>
+        <textarea id="msg"></textarea>
+    </div>
+
+
+    <button value="Enviar">Enviar</button>
+</form>
+
+  </footer>
+  
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+</body>
+</html>

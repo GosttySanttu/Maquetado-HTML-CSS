@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Contactame</title>
+	<style type="text/css">
+	input{ outline: none; }
+	textarea{
+		width: 600px;
+		height: 120px;
+		resize: none;
+	}
+	form span{ 
+		width: 150px; 
+		display: inline-block;
+		vertical-align: top;
+	}
+	</style>
+</head>
+<body>
+	<h1>StarWars</h1>
+	<h2>Be an Stormtrooper</h2>
+	<div id="principal">
+		<form 
+			action="gracias.html"
+			method="get"
+			enctype="multipart/form-data">
+				<div>
+					<span>Tu nombre: </span>
+					<input type="text" name="nombre" value="Flor" />
+				</div>
+				<div>
+					<span>Tu email: </span>
+					<input type="text" required placeholder="algo@algo.com" name="correo" />
+					<!-- DISCLAIMER: Los atributos required y placeholder son propios de HTML5 por lo cual no van a validar en el XHTML estricto -->
+				</div>
+			
+				<div>
+					<span>Por que tenes que ser un stormtrooper </span>
+					<textarea rows="1" cols="1" name="porque"></textarea>
+				</div>
+				<div>
+					<input type="submit" />
+					<input type="reset" />
+					<input type="button" onclick="alert('holis')" value="ENVIAR" />
+					<input type="image" src="http://png.clipart.me/istock/thumbs/5557/55574690-submit-orange-elliptical-vector-button.jpg" alt="ENviar formulario" />
+				</div>
+			
+		</form>
+	
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+

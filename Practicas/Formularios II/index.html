@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Formularios</title>
+	<style type="text/css">
+	form{
+	margin-bottom: 400px;
+	}
+	label{
+		display: inline-block;
+		padding: 10px;
+		border: 2px solid red;
+		width: 600px;
+	}
+	.docentes{
+	padding-top:20px;
+	}
+	.nacionalidad{
+	padding-top:20px;
+	}
+	
+	
+	/*fieldset{
+border-style:none;
+}*/
+	</style>
+</head>
+<body>
+	<form 
+		action="gracias.html" 
+		method="post"
+		enctype="multipart/form-data">
+		<fieldset>
+		<legend>Datos obligatorios</legend>
+		<!-- todos los elementos del formulario necesitan un name -->
+		<div>Tu nombre: <input disabled="disabled" value="Ej.Banner" type="text" name="nombre" /></div>
+		<div>Tu clave: <input type="password" name="clave" /></div>
+		<div>Estás enojado banner: <textarea name="bio" cols="50" rows="6"></textarea></div>
+
+
+		<div>Género: </div>
+		<div>
+			<input id="masc" type="radio" name="sexo" value="masculino" /> 
+			<label for="masc">Masculino</label>
+		</div>
+		<div>
+			<input id="fem" checked="checked" type="radio" name="sexo" value="femenino" /> 
+			<label for="fem">Femenino</label>
+		</div>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Datos optativos</legend>
+		<div>Foto de Hulk <input type="file" accept="image/*" name="foto" /></div>
+		
+		
+		<div class="docentes">Docente Favorito ;)</div>
+		<div><label><input type="checkbox" name="sf" value="Maga" />Maga </label></div>
+		<div><label><input type="checkbox" name="cf" value="Ceci Feijoo" />Ceci</label></div>
+		<div><label><input type="checkbox" name="ji" value="Flor" />Flor</label></div>
+		<div><label><input checked="checked" type="checkbox" name="fn" value="Fede Noto" />Fede</label></div>
+
+		<div class="nacionalidad">Nacionalidad: 
+			 <select name="pais">
+				<optgroup label="Nuevo continente">
+					<option>Argentina</option>
+					<option>Brasil</option>
+					<option>Bolivia</option>
+					<option>Paraguay</option>
+					<option>Uruguay</option>
+					<option>Chile</option>
+					<option>Peru</option>
+				</optgroup>
+				<optgroup label="Viejo continente">
+					<option selected="selected">España tradicional</option>
+					<option>España peninsula iberica</option>
+					<option>Italia</option>
+					<option>Francia</option>
+					<option>Alemania</option>
+					<option>Portugal</option>
+				</optgroup>
+			 </select>
+		</div>
+
+		
+		</fieldset>
+		
+		
+		<div><input type="submit" value="Mandar mensaje" /></div>
+	</form>
+</body>
+</html>
+
+
+
+

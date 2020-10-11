@@ -1,0 +1,52 @@
+El sitio está formado por 3 partes: Un header (el encabezado), un footer (el pie de la web) y un contenido principal (donde están las imágenes y el texto).
+
+SOBRE EL BODY:
+No debe tener ni margin ni padding.
+La familia tipográfica por defecto tiene que ser Verdana.
+El color gris del fondo es #cccccc.
+
+EL HEADER:
+Tiene un color sólido de fondo: #B62321.
+Tiene una línea abajo de 5px de grosor, sólida y de color #5F0A08.
+Tiene un padding a los 4 lados de 20px.
+
+EL H1 DEL HEADER
+Tiene una tipografía Georgia de 60px de tamaño, en itálica y color blanco (white).
+Tiene un interlineado de 64px.
+El ícono del stormtrooper está en la carpeta recursos y debe ponerse como imagen de fondo.
+Para que la imagen de fondo se vea bien, el encabezado tiene 10px de padding arriba y abajo y 70px de padding a la izquierda.
+Solo tiene margin hacia abajo de -20px (sí, negativo para que se superponga el texto que viene después), en los otros lados debe tener 0px de margin.
+En total debe medir 1000px de ancho y estar centrado con respecto al contenedor.
+
+EL PARRAFO DEL HEADER.
+También mide en total 1000px de ancho, centrado con respecto al contenedor y tiene el texto alineado a la derecha.
+Para que entre justo antes de la P de stormtrooper, debe tener padding a la derecha de 145px.
+No tiene margen ni arriba, ni abajo.
+La fuente es una Arial de 31px, color #5F0A08
+
+EL CUERPO PRINCIPAL
+Tiene un fondo blanco, de 1000px de ancho en total y tener padding de 30px arriba y abajo y 20px a cada lado.
+También está centrado.
+
+LOS ENCABEZADOS DEL CUERPO PRINCIPAL.
+Estan formateados con la fuente Trebuchet Ms, de 40px alineado a la derecha.
+Tiene una línea abajo que ocupa el 100% del contenedor, es sólida de 1px de grosor.
+Tanto el texto como la línea de abajo tienen el mismo color: #3D5E78
+Hay que quitarles el margen a todos lados.
+
+LAS IMAGENES DEL CUERPO PRINCIPAL.
+Para lograr el efecto pseudo-polaroid (del borde y fondo blanco alrededor de la foto), hay que darle a las imágenes padding a los 4 lados de 18px.
+Además aplicarle un borde a los 4 lados de 1px de grosor color #DDDDDD.
+Darle a todas 30px de margen hacia abajo.
+
+EL FOOTER
+Tiene como imagen de fondo el archivo fondo_footer.jpg que está en la carpeta recursos.
+El texto es color blanco.
+Tiene 30px de padding para los 4 lados.
+
+LOS PARRAFOS ADENTRO DEL FOOTER.
+Solo importa que tienen 960px de ancho y están centrados con respecto al contenedor.
+
+EL LINK Y EL TEXTO DESTACADO
+Antes de la última foto hay un vínculo (el que dice 'desde aca'), que tiene el color darkred y no debe verse subrayado.
+El texto en inglés color verde antes del link, es color darkgreen, tiene 18px de tamaño según la fuente 'Trebuchet Ms'

@@ -1,0 +1,95 @@
+#principal{
+	width: 960px;
+	margin: auto;
+	border: 1px solid silver;
+	padding: 10px;
+	font-family: Verdana;
+}
+
+h1{
+	font: bold 120px Batman;
+	margin: 10px 0;
+	text-align: center;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu{
+	background: black;
+	overflow: auto;
+}
+#menu > li{
+	float: left;
+}
+#menu a{
+	display: block;
+	padding: 10px 15px;
+	color: yellow;
+	text-decoration: none;
+	border-left: 1px solid white;
+}
+#menu li:first-child a{
+	border-left: none;
+}
+
+
+
+#menu ul{
+	height: 0px;
+	overflow: hidden;
+	/*display: none;*/
+	position: absolute; /* busca cualquier etiqueta "padre" que sea relative */
+	transition: all 0.5s;
+}
+
+#menu li:hover ul{
+	height: 340px;
+	/*
+	display: block;
+	*/
+}
+
+#menu ul a{
+	background: #353743;
+	border-left: none;
+	border-top: 1px solid black;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all 1s ; /*ease-in*/
+}
+
+
+#menu ul a:hover{
+	background: black;
+	padding-right: 10px;
+	padding-left: 50px;
+}
+
+
+
+
+#logo{
+	display: block;
+	margin: 20px auto;
+	transition: all 1s;
+	transform: rotate( 0deg ) scale( 0.5 ) translateX(0);
+}
+
+#principal:hover #logo{
+	/* transformar */
+	transform: rotate( 3600deg ) scale( 2.5 ) translateX(140px); /*10px*/
+}
+
+
+
+
+
+
+
+
+
+
+

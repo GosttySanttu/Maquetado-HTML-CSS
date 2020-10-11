@@ -1,0 +1,16 @@
+Desarrollar un documento HTML que valide según el DTD del XHTML 1.0 Strict.
+
+Un encabezado con el nombre Vinculos e imagenes.
+Una imagen llamada menu.jpg que debe usar una etiqueta map para hacer un menú.
+Cada personaje debe hacer scroll al texto correspondiente al botón seleccionado, usando un area de forma cuadrada (80 x 80)
+El logo de wikipedia debe ser un area en forma de circulo y al hacerle click abrir la página http://es.wikipedia.org/wiki/Super_Mario_Bros.
+
+Cada personaje está formado por un encabezado, una imagen (que se encuentra en la carpeta banners) y un texto formado por uno o varios párrafos.
+En el caso de Mario, también hay una lista con algunos de los personajes en que se puede convertir.
+
+Al final hay una imagen a modo de relleno, solo para que el último ancla tenga espacio para hacer scroll (sino va a quedar al pie).
+
+Se deja una imagen como referencia de cómo debe verse el documento final (el ancho del texto puede cambiar, según la resolución de pantalla de tu computadora).
+
+No podés cambiar de ubicación las imágenes (cada imagen debe estar en su carpeta original).
+El archivo index.html, tenés que crearlo en la carpeta raíz. 

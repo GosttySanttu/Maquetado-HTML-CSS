@@ -1,0 +1,92 @@
+body{
+	font-family: verdana;
+	background: url(fondos/fondo.jpg) fixed;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	font: bold 90px/90px tmnt;
+	margin: 20px;
+}
+
+h1 acronym{
+	text-decoration: none;
+}
+#menu,
+#ppal{
+	width: 780px;
+	margin: auto;
+}
+#ppal{ background: white; }
+#menu{
+	width: 760px;
+	padding:0 20px 0 0;
+	overflow: auto;
+	list-style: none;
+	text-align: right;
+	border-bottom: 5px solid black;
+}
+
+#menu li{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#menu li a{
+	display: inline-block;
+	background: black;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	border-radius: 10px 10px 0 0;
+}
+#menu #active{
+	background: darkgreen;
+}
+#ppal ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: white;
+}
+
+#ppal #personajes li{
+	float: left;
+	width: 330px;
+	overflow: auto;
+	padding: 40px 30px;
+}
+
+#ppal #personajes li img{
+	float: left;
+	margin-right: 10px;
+	border: 2px solid black;
+	border-top-left-radius: 71% 100%;
+	border-top-right-radius: 73% 91%;
+	border-bottom-right-radius: 85% 30%;
+	border-bottom-left-radius: 61% 52%;;
+}
+
+#ppal h2{
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+#r{ background: url(fondos/r.jpg); }
+#d{ background: url(fondos/d.jpg); }
+#l{ background: url(fondos/l.jpg); }
+#m{ background: url(fondos/m.jpg); }
+
+#cosplay{ overflow: auto }
+#cosplay li{ float: left; margin-right: 10px; }
+
+#cosplay img{
+	border: 33px solid darkgreen;
+	border-image: url(bordes/diamantes.png) 34 33 33 34 round;
+	
+	behavior: url(recursos/PIE.htc);
+}
+
+
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="form.css" />
+</head>
+<body>
+	<form action="mandar.php">
+		<div><span>personaje:</span><input type="text" />
+		</div>
+		
+		<div><span>tu email:</span><input type="email" required />
+		</div>
+		
+		<div><span>vive:</span>
+			<input type="radio" value="si" name="vive" id="si" /> <label for="si">SI </label>
+			<input type="radio" value="no" name="vive" id="no" /> <label for="no">NO</label>
+		</div>
+		
+		<div>
+		<input type="checkbox" name="acepto" id="agree" value="si" /><label for="agree">
+		<span>NO</span> acepto los terms &amp; cond</label>
+		</div>
+		
+		<div><input type="submit" />
+		</div>
+	</form>
+</body>
+</html>

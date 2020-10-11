@@ -1,0 +1,52 @@
+body{
+	font-family: Verdana;
+}
+h1{
+	background: url(iconos/logo.png) no-repeat;
+	width: 500px;
+	height: 146px;
+	font-size: 0
+}
+
+ul{
+	margin: 20px 0;
+	padding: 10px;
+	list-style: none;
+	border: 2px solid silver;
+	overflow: auto;
+	
+}
+
+ul li{
+	float: left
+}
+
+
+ul li a{ /* DRY --> Dont repeat yourself */
+	text-decoration: none;
+	
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 8px 40px;
+}
+
+
+ul li:nth-child(1) a{
+	background-image: url(iconos/facebook.png);
+}
+
+ul li:nth-child(2) a{
+	background-image: url(iconos/twitter.png);
+}
+
+ul li:nth-child(3) a{
+	background-image: url(iconos/youtube.png);
+}
+
+
+
+
+
+
+

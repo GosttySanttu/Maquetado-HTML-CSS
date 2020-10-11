@@ -1,0 +1,22 @@
+Te ofrezco un HTML que NO PODES MODIFICAR.
+Tratá de aplicarle el mismo diseño que se muestra en la imagen de referencia.
+Te dejo un poco de DATA:
+
+- El div principal tiene 800px de ancho y un padding de 20px arriba y abajo, 50px de cada lado. Tiene fondo blanco y un margin hacia arriba de 30px
+- El h1 es Georgia, italic de 45px, alineado a la derecha. Tiene color de texto DARKRED.
+- Adentro del h1 hay un strong... ese tiene color de texto DARKGREEN (no debe afectar NINGUN otro strong, solo ese).
+- Vas a necesitar darle padding de arriba y abajo para que se muestre completa la imagen de fondo.
+
+- Todos los h2 son Verdana de 23px color WHITE.
+	* El color de fondo del encabezado de mario es DARKRED.
+	* El color de fondo del encabezado de luigi es DARKGREEN.
+	* El color de fondo del encabezado de toad es PURPLE.
+- Los tres tienen un padding arriba y abajo de 5px y a la izquierda de 55px.
+- Los tres tienen un ícono de fondo, que esta centrado verticalmente y a 10px de la izquierda.
+
+- Todos los divs de los personajes están puestos uno a lado del otro.
+	* CADA uno tiene 250px de ancho.
+	* Tienen un padding de cada lado de 7px.
+	* SOLO el de luigi tiene un borde punteado de 1px a cada lado color #333333
+
+- El color del body para todo lo que no cubra la imagen debe ser #2e4579

@@ -1,0 +1,42 @@
+body{
+	background: url(recursos/fondo.jpg);
+}
+
+h1{
+	background: url(recursos/logo.jpg);
+	height: 295px;
+/*	padding-top:130px;
+	padding-bottom:130px;
+	*/
+	font-size: 0px;
+/*	text-indent: -100px;
+	overflow: hidden;*/
+}
+
+ul li{
+	float: left; /* dejan de darle su alto al UL */
+	margin-right: 5px;
+}
+
+ul{
+	overflow: auto; /* "recalcula" todo elemento que sobresale del borde (en este caso, los 4 videos ) */
+	padding: 0;
+	list-style: none;
+}
+
+
+h2{
+	background: url(recursos/icon.jpg) no-repeat right center #FD7D00;
+	font: bold 20px/20px 'Trebuchet Ms';
+	padding: 15px 10px;
+	color: white;
+	margin: 40px 0 0 0;
+}
+
+#principal{
+	background: white;
+	width: 710px;
+	margin: auto;
+	border: 2px solid #AAAAAA;
+	padding: 10px 20px;
+}

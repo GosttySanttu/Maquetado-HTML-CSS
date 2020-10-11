@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<style type="text/css">
+	
+	table{ 
+		padding:10px;
+		border: 1px solid red;
+		/*border-collapse: collapse;*/
+		caption-side: bottom;
+		empty-cells: hide;
+	}
+	caption{
+		background: red;
+	}
+	
+	thead{
+		background-color:grey;
+		color:#FFF;
+		font-family: Verdana;
+		font-style:italic;
+	}
+	
+	td{ 
+		border: 3px solid pink; 
+		padding: 10px;
+
+	}
+	#x{ border: 3px dotted purple; }
+	
+	.blue{
+		background-color:blue;
+		color:orange;
+		font-family: Verdana;
+		font-weight:bold;
+	}
+	
+	#red{
+		background-color:red;
+		color:blue;
+		font-weight:bold;
+	}
+	
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Titulin de la tabla</caption>
+		<thead>
+			<tr>
+				<td>F1 - C1</td>
+				<td>F1 - C2</td>
+				<td id="red">F1 - C3</td>
+			</tr><!-- fila 1 -->
+			</thead>
+		<tr>
+			<td>F2 - C1</td>
+			<td id="x">F2 - C2</td>
+			<td>F2 - C3</td>
+		</tr><!-- fila 2 -->
+		<tr>
+			<td class="blue">F3 - C1</td>
+			<td>F3 - C2</td>
+			<td></td>
+		</tr><!-- fila 3 -->
+	</table>
+</body>
+</html>
+
+
+

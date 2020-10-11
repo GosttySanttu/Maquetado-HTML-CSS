@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>flotaciones</title>
+	<link href="estilos.css" rel="stylesheet" />
+</head>
+<body>
+	<h1>Menú SIN/CON float </h1> 
+	
+	<!--<ul id="menu1"> 
+		<li><a href="#">Item 1</a></li> 
+		<li><a href="#">Item 2</a></li> 
+		<li><a href="#">Item 3</a></li> 
+		<li><a href="#">Item 4</a></li>
+	</ul>	-->
+
+	<!--<div id="contenedor"> 
+		<div id="caja1">CAJA 1</div>  
+		<div id="caja2">CAJA 2</div> 
+	</div> -->
+	
+	<div class="principal">
+		<div class="rosa">
+		Este div esta flotado.<br /> 
+		Intencionalmente es más alto que el div de al lado.<br /> 
+		Como podemos ver, sobresale del borde rojo del contenedor.<br /> Y el contenedor se achica al alto del otro elemento. 
+		</div>
+		<div class="verde"> 
+		Caja sin flotación, pero con margin-left 
+		</div> 
+		<div class="gris"> 
+		Caja chica 
+		</div> 
+	</div> 
+
+	<div id="principal" style="border-color: red"><!-- PRINCIPAL / position: relative;-->
+	<div style="border-color: blue"><!-- SUB CONTENEDOR -->
+		<div style="border-color: darkgreen"><!-- ULTIMO DIV -->
+			<!--<p>Parrafo 1</p>
+			<p>Parrafo 2</p>
+			<!--<p style="position: fixed; top: 100px; right: 10px;">Parrafo 2</p>-->
+			<!--<p style="position: absolute; top: 100px; right: 10px;">Parrafo 2</p>-->
+			<!--<p>Parrafo 3</p>-->
+		</div>
+	</div>
+	</div>
+	
+</body>
+</html>

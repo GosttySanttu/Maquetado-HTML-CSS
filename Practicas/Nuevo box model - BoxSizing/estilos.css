@@ -1,0 +1,183 @@
+#principal{
+	display: flex;
+	flex-direction: column;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+}
+h1{
+	
+	color: white;
+	padding: 230px 0 145px 55px;
+	font-size: 50px;
+	margin: 0;
+	font-family: 'Trebuchet Ms';
+	background: url(img/cover.jpg);
+	background-size: 100%;
+}
+h2, p, ul{
+	margin: 0;
+}
+
+#principal > div{
+	padding: 40px;
+	min-width: 850px; /*  Ancho mínimo de una caja. */
+}
+
+#about{
+	background: Wheat;
+}
+#bio{
+	background: Chocolate
+}
+/*
+#bio ul{
+	padding: 0;
+	list-style: none;
+	border: 2px solid blue;
+}
+
+#bio ul li{
+	border: 3px solid white;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 10px;
+	
+	display: inline-block;
+	vertical-align: top;
+}
+*/
+
+
+#testimonios{
+	background: Maroon;
+}
+#principal > #concurso{
+	padding: 40px 20px 150px 20px;
+	background: url(img/mapa.png)
+}
+
+/** FORM**/
+
+#concurso form{
+	background: rgba(255,255,255,0.9);
+	width: 500px;
+	margin: auto;
+	padding: 30px;
+}
+#concurso form div{
+	margin-bottom: 2px;
+}
+#concurso form span{
+	display: inline-block;
+	width: 140px;
+	vertical-align: top;
+}
+#concurso form span + * {
+	width: 250px;
+	padding: 10px;
+	box-sizing: content-box;
+}
+#concurso input[type=submit]{
+	margin-left: 140px;
+	width: 250px;
+	padding: 10px;
+	box-sizing: content-box; /* El ancho FINAL de la caja será la suma del width, más
+	border y padding */
+}
+
+
+/**** BIOGRAFÍA ****/
+
+#bio ul{
+	padding: 0;
+	list-style: none;
+	border: 2px solid blue;
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+
+/** VER BOX **/
+
+#bio ul li{
+	border: 3px solid white;
+	width: 50%;
+	box-sizing: border-box; /* El ancho FINAL será el width.
+	border y padding se restarán del ancho */
+	padding: 10px;	
+}
+
+/**** MENÚ ****/ /*FLAX COMPLETO*/
+
+
+#header{
+	order: -1;
+	background: black;
+	display: flex;
+}
+#header ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid yellow;
+	display: flex;
+	flex: 3;
+	flex-direction: row;
+	justify-content: space-around; /* El espacio que sobra se muestra equitativamente a cada lado de los
+	hijos*/
+}
+
+#header li{
+	border:1px solid pink;
+}
+
+#header form{
+	border: 1px solid lime;
+}
+
+#header form input[type=text]{
+	width: 50px;
+	transition: 0.4s;
+}
+#header form input[type=text]:focus{
+	width: 250px;
+}
+
+#header a{
+	color: white;
+	text-decoration: none;
+}
+
+/**** TESTIMONIOS ****/ /*VER FLEX*/
+
+#testimonios{
+	color: white;
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center;
+}
+#testimonios h2{
+	width: 100%;
+}
+#testimonios p{
+	width: 500px;
+}
+#testimonios cite{
+	display: block;
+	font: bold 20px 'Trebuchet Ms';
+}
+#testimonios img{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+

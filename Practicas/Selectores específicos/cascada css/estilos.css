@@ -1,0 +1,61 @@
+body{
+	
+	background-color:#ececae;
+}
+.contenedor{
+	background-color:#b1a4a4;
+	width:400px;
+	padding:30px;
+}
+h1{
+	color:#311717;
+	font-family:Verdana;
+	font-size:24px;
+	
+}
+
+h2{
+	color:white;
+	font-family:Verdana;
+	font-size:18px;
+	
+}
+
+
+p{
+	color:white;
+	font-family:Verdana;
+	font-size:14px;
+	
+}
+
+/*.imgst {
+	background-color:red;
+	border: 2px solid green;
+}*/
+
+
+.imgst img{
+	/*background-color:red;*/
+	border: 2px solid #ead716;
+}
+
+/*#verde img{
+	border: 2px solid green;
+}*/
+
+/*h2{
+	color:red;
+	font-family:Verdana;
+	font-size:13px;
+	
+}*/
+
+/*.rosa{
+	color:pink;
+}
+
+.tam{
+	font-size:30px;
+	/*color:red;
+}*/

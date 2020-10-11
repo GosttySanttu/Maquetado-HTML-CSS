@@ -1,0 +1,12 @@
+h1{
+	color: red;
+}
+
+acronym:after{
+	content: attr(title);
+	font: bold 20pt/22pt Verdana;
+	display: block;
+	color: silver;
+}
+
+#menu{ display: none; } 

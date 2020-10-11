@@ -1,0 +1,153 @@
+h1{
+	font-family: 'Trebuchet Ms';
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body > ul > li{
+	border: 2px solid Crimson;
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	/*height:400px;*/
+	margin: 4px;
+	padding:5px;
+}
+/*Elementos pares adentro del elemento padre.*/
+
+body > ul > li:nth-child( even ){
+	background: red;
+}
+
+body > ul > li:nth-child( odd ){
+	background: green;
+}
+
+body > ul > li:first-child {
+	background: grey;
+}
+
+body > ul > li:nth-child(3){
+	background: orange;
+}
+
+body > ul > li:last-child {
+	background: violet;
+}
+
+li a{
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 20px;
+}
+/*agrego iconos sólo a los específicos*/
+
+/* solo los mailto: */
+li a[href^=mailto]{
+	background: url(00-icons/mail.png) no-repeat left center;
+}
+/* solo los que terminan con pdf: */
+li a[href$=pdf]{
+	background: url(00-icons/pdf.gif) no-repeat left center;
+}
+/* solo los que tengan en cualquier lugar facebook: */
+li a[href*=facebook]{
+	background: url(00-icons/facebook.png) no-repeat left center;
+}
+
+/*dentro del ul el li que contengan dentro una img y un ul*/
+ul  img ~ ul{
+	border: 2px solid green;
+	margin-left: 110px;
+	background-color:blue;
+}
+
+li > li{
+	width: 270px;
+}
+
+h2{
+	font-family: 'Georgia';
+	text-align: center;
+}
+img{
+	border: 1px solid grey;
+	padding: 5px;
+	float: left;
+}
+
+
+h2{
+	color: orange;
+}
+/* Formatea al primer elemento de todos los de su tipo*/
+
+.villano h2:first-of-type{
+	color: Plum;
+	border:  1px dashed Plum;
+}
+
+.palmo h2{
+	color: DarkGray;
+}
+
+.palmo.villano {
+	background-color: silver;
+}
+
+/*botonera*/
+
+#menu {
+	margin: 0;
+	padding: 10px;
+	background: black;
+	list-style: none;
+}
+#menu li{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	color: yellow;
+}
+#menu li a{
+	color: white;
+	display: inline-block;
+	
+	padding: 5px 20px;
+}
+/*Aplica formato CSS justo después de cerrar la etiqueta*/
+#menu li a:after{
+	content: '|';
+	display: inline-block;
+	padding: 5px 10px;
+	color: yellow;
+	font-size: 40px;
+}
+#menu li:last-child a:after{
+	content: '';
+}
+/*por eso en la botonera no aparece visible su contenido*/
+body > ul > li{
+	display: none;
+}
+/*Cuando el ID de una etiqueta coincide con la URL hace
+scroll*/
+
+body > ul > li:target{
+	display: block;
+	/*background: red;*/
+	
+}
+
+
+
+
+
+
+

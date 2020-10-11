@@ -1,0 +1,8 @@
+CONTENEDORES: 
+UTF-8 (windows. linux. mac)
+- usa el charset utf-8 (logicamente)
+
+ANSI (versión microsoft de utf-8)
+- latin1
+- ISO-8859-1
+- windows-1252

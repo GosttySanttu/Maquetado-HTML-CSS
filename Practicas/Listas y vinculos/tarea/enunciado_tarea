@@ -1,0 +1,19 @@
+Enunciado:
+
+Se deberá realizar un sitio SIN CSS que divida los contenidos de los archivos en 3 documentos (XHTML 1.0 Strict válidos según la w3c) distintos.
+1. El index tendrá toda la información general de la pelicula (como vimos en clase).
+2. Los Personajes de iron man.
+3. La lista de peliculas donde apareció Iron man.
+
+Los tres documentos deberán poder navegarse con un menú que se deberá repetir en los 3 archivos justo abajo del encabezado principal. (como vimos en clase)
+
+Además, en el archivo de los personajes de Iron man, deberás agregar otro menú que permita hacer scroll hasta cada uno de los personajes (anclas). 
+
+En todos los documentos se deberán jerarquizar los encabezados y realizar el trabajo de refuerzo semántico (con strong o em) de los textos que sean de relevancia.
+
+Usar listas en todos los casos en que se estén enumerando ítems.
+
+Resaltar acrónimos o abreviaturas a lo largo de todo el texto, si los hay.
+
+Buscar los textos citados y usar las etiquetas que correspondan.
+

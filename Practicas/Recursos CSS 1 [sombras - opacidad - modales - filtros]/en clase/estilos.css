@@ -1,0 +1,154 @@
+body{
+	font-family: Verdana;
+	background: url(fotos/fondo.jpg) center top no-repeat fixed;
+	background-color: #015c79;
+
+}
+
+/*text-shadow*/
+h1{
+	font-size: 60px;
+	color: #1E7799;
+	width: 600px;
+/*	border: 1px solid white; */
+	text-shadow: 
+		   2px 4px 8px #ff1d1d8c, 
+		   -1px -1px 10px #ff1d1d, 
+		   -4px 1px 0px white, 
+		   1px -1px 0px #ffffffb0;
+	
+		/*1px 1px 0px white, 
+		-1px -1px 0px white, 
+		-1px 1px 0px white, 
+		1px -1px 0px white ;*/
+}
+
+/*galería de imágenes*/
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 920px;
+}
+
+ul li{
+	display: inline-block;
+	border: 1px solid #999999;
+	width: 150px;
+	overflow: hidden;
+	vertical-align: top;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	padding: 5px;
+	background: white;
+}
+ul li:hover{
+	background: #f321e1;
+}
+
+ul li img{
+	margin-left: -40px;
+	filter: /* grayscale(1) blur(5px) */ invert(1) 
+}
+
+
+ul li:hover img{
+	filter:invert(0);
+}
+
+
+
+ul li p{
+	font-size: 10px;
+	display: none;
+}
+
+ul li:target{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(255,255,255,0.6);/*con transparencia*/
+	width: auto;
+	z-index: 2;
+}
+
+ul li:target p{ 
+	display: block; 
+	font-size: 20px;
+}
+ul li:target > div{
+	background: red;
+	width: 500px;
+	margin: auto;
+	padding: 10px;
+}
+ul li:target > div img{
+	margin: 0;
+}
+
+ul li:target  .cerrar{
+	float: right;
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background: url(iconos/close.png);
+}
+
+h2{
+	text-align: center;
+}
+
+
+/*poster*/
+
+#poster{
+	background: url(fotos/fondo_rayas2.png) /*rgba(49,95,245, 0.25)*/;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+   /*opacity: 0.5 */
+}
+#poster ul{
+	width: auto;
+	background: #9966CC;
+	padding: 10px;
+}
+#poster li{
+	display: block;
+	width: auto;
+	background: white;
+}
+#poster li a{
+	text-decoration: none;
+	color: #9966CC;
+	padding-left: 50px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display: block;
+}
+#poster li #f{
+	background-image: url(iconos/facebook.png);
+}
+#poster li #t{
+	background-image: url(iconos/twitter.png);
+}
+#poster li #g{
+	background-image: url(iconos/plus.png);
+}
+#poster li #l{
+	background-image: url(iconos/linkedin.png);
+}
+
+/*mostrar con un div - transparencia*/
+
+/*rgba(49,95,245, 0.25)*/
+
+
+
